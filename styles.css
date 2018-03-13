@@ -1,0 +1,58 @@
+/*bloco de regras*/
+/* <seletor css> {*/
+/*chave: valor;*/
+/*na ultima regrao ; é opcional */
+/*}*/
+ 
+/*Seletor de elemento*/
+p { 
+    color: rgb(60, 60, 184);
+text-align: center;
+}
+
+/*seletor de ID*/
+#meuParagrafo{
+    color: blueviolet;
+}
+/*seletor de classe*/
+.destaque {
+    color: aqua;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+/*=significa*/
+/*procura exatamente o que inicia entre aspas*/
+[type="button"]{
+    color: blueviolet;
+    }
+
+/*^significa*/
+/*procura exatamente o que incia entre aspas*/
+[class^="btn"] {
+    border: 10px solid purple    
+}
+
+/*$significa*/
+/*procura exatamente o que termina entre aspas*/
+[class$="primary"] {
+      border: 10px solid darkred;
+}
+/**significa*/
+/*procura exatamente o que esta entre aspas em qualquer lugar*/
+[class$="primary"] {
+    border: 10px solid darkred;
+}
+li{
+    list-style-image: url("http://files.softicons.com/download/toolbar-icons/fatcow-hosting-extra-icons-2-by-fatcow/png/16x16/emotion_face_panda.png")
+}
+
+
+
+
+
+
+
